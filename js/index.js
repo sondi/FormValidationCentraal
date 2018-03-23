@@ -15,11 +15,12 @@ function validations(e){
 		emptyArray.push(pass);
 		console.log(emptyArray);
 		document.getElementById("myForm").reset();
+		document.getElementById("myForm").className = 'hide';
 		document.getElementById('review').className = '';
-		document.getElementById("cname").innerHTML = name;
-		document.getElementById("clastname").innerHTML = lastname;
-		document.getElementById("cemail").innerHTML = email;
-		document.getElementById("ctel").innerHTML = tel;
+		document.getElementById("cname").innerHTML = emptyArray[0];
+		document.getElementById("clastname").innerHTML = emptyArray[1];
+		document.getElementById("cemail").innerHTML = emptyArray[2];
+		document.getElementById("ctel").innerHTML = emptyArray[3];
 
 	}
 }

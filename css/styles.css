@@ -12,6 +12,28 @@ body{
   .hide{
     display: none;
   }
+  #review{
+    margin: 0 auto;
+    width: 300px;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    height: 212px;
+  }
+  #review h3{
+    text-align: center;
+  }
+  #review ul li{
+    list-style: none;
+    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  #review ul li span{
+    font-weight: 300;
+    color:#000;
+    font-size: 16px;
+  }
   form{
     width: 320px;
     margin: 0 auto;
@@ -36,6 +58,7 @@ body{
     font-size: 16px;
     float: right;
     margin-top: 5px;
+    cursor: pointer;
   }
   #placeholder{ margin-top: 20px; }
 
