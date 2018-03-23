@@ -1,0 +1,23 @@
+{
+  "name": "javascript-ejemplos",
+  "version": "0.0.1",
+  "description": "ejemplos de javascript basicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "browser-sync start --server --files 'css/.css', 'js/.js', *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/javascript-ejemplos.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/javascript-ejemplos/issues"
+  },
+  "homepage": "https://github.com/gndx/javascript-ejemplos#readme"
+}

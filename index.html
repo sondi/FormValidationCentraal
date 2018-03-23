@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reto Marzo 21</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+</head>
+<body>
+    <div id="review" class="hide">
+        <h3>Confirma tu informacion</h3>
+        <ul>
+            <li>Nombre: <span id="cname"></span></li>
+            <li>Apellido: <span id="clastname"></span></li>
+            <li>Email: <span id="cemail"></span></li>
+            <li>Telefono: <span id="ctel"></span></li>
+        </ul>
+    </div>
+        
+    <form id="myForm" action="">
+    	<p>
+    		<label>Nombre</label>
+    		<label>
+    			<input id="name" type="text" placeholder="first name">
+            </label>
+            <p id="errorName" class="error"></p>
+    	</p>
+    	<p>
+    		<label>Apellido</label>
+    		<label>
+    			<input id="lastname" type="text" placeholder="last name">
+            </label>
+            <p id="errorLastName" class="error"></p>
+    	</p>
+        <p>
+            <label>Correo electrónico:</label><br>
+            <label>
+                <input id="email" type="email" name="email" value="" placeholder="mail@mimail.com" >
+            </label>
+            <p id="errorEmail" class="error"></p>
+    	</p>
+        </p>
+        <p>
+        	<label>Teléfono</label>
+        	<label>
+                <input id="tel" type="tel" name="tel" value="" placeholder="ex: 5555 5555" >
+            </label>
+            <p id="errorTel" class="error"></p>
+        </p>
+        <p>
+        	<label>Contraseña</label>
+        	<label>
+                <input id="password" type="password" name="password" value="" placeholder="contraseña" >
+            </label>
+            <p id="errorPwd" class="error"></p>
+        </p>
+        <p>
+            <label>Confirma Contraseña</label>
+            <label>
+                <input id="password2" type="password" name="password" value="" placeholder="contraseña" >
+            </label>
+            <p id="errorPwd2" class="error"></p>
+        </p>
+        <button type="submit" id="submit">Enviar</button>
+        <p id="placeholder"></p>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>
